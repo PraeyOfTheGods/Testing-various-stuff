@@ -1,0 +1,26 @@
+{
+  "name": "nest-hello-app",
+  "version": "1.0.0",
+  "description": "A minimal NestJS application with a hello world endpoint.",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.0.0",
+    "typescript": "^4.0.0"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "^9.0.0",
+    "ts-jest": "^27.0.0",
+    "jest": "^27.0.0",
+    "ts-loader": "^9.0.0"
+  },
+  "license": "MIT"
+}
